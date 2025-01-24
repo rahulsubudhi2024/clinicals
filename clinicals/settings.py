@@ -79,7 +79,8 @@ DATABASES = {
         "ENGINE": 'django.db.backends.mysql',
         "NAME": 'clinicalsdb',
         "USER": 'root',
-        "PASSWORD": 'subudhi100'
+        "PASSWORD": 'subudhi100',
+        'HOST': 'docker-mysql'
     }
 }
 
